@@ -40,17 +40,17 @@ public class AdminSecurityConfiguration extends WebSecurityConfigurerAdapter{
 		digestEntryPoint.setKey("fjkf33DD312_+");
 		return digestEntryPoint;
 	}
-	
+
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.inMemoryAuthentication()
-        .withUser("user")
-            .password("password")
-            .roles("USER")
-    	.and()
-		.withUser("admin")
-            .password("password1")
-            .roles("ADMIN");
+				.withUser("user")
+				.password("password")
+				.roles("USER")
+				.and()
+				.withUser("admin")
+				.password("password1")
+				.roles("ADMIN");
 	}
 	
 	@Override
