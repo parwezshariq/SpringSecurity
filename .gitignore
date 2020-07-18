@@ -1,3 +1,6 @@
 /SpringBoot-BasicAuthentication/target/
 /SpringBoot-BasicAuthentication/.idea/
 /SpringBoot-BasicAuthentication/auth-web-basic.iml
+/SpringBoot-DigestAuthentication/target/
+/SpringBoot-DigestAuthentication/.idea/
+/SpringBoot-DigestAuthentication/auth-web-digest.iml

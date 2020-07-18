@@ -1,0 +1,18 @@
+http://localhost:8080/support/admin
+
+cURL -
+
+curl 'http://localhost:8080/support/admin' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Authorization: Digest username="admin", realm="admin-digest-realm", nonce="MTU5NTA5MzYzMjUyOTozMDA2MDVhNTUzODU1NWVjYWFiZDFmMTkwZTczOTc1MA==", uri="/support/admin", response="546ef77f839a1197c3d6b2316d82c2b5", qop=auth, nc=00000002, cnonce="16ee0bad275641d1"' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: none' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cookie: jenkins-timestamper-offset=-19800000; JSESSIONID=C09EFD65CE718E0D14ED727AF00BE4FC' \
+  --compressed
