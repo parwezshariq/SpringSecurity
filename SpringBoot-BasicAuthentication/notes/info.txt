@@ -1,0 +1,31 @@
+While starting application, look for generated security password in console
+
+Example -  Using generated security password: ac338750-f184-441d-882d-bb38926ff9bc
+
+-------------------------------------------------------------------------------------
+
+## On Application startup -
+
+http://localhost:8080/portfolio -> Sign in popup
+    Username - user
+    Password - ac338750-f184-441d-882d-bb38926ff9bc
+
+cURL:
+
+curl 'http://localhost:8080/portfolio' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Authorization: Basic dXNlcjphYzMzODc1MC1mMTg0LTQ0MWQtODgyZC1iYjM4OTI2ZmY5YmM=' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Sec-Fetch-Site: none' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cookie: JSESSIONID=C665B5ECCA8D2FE5092FCF175064C82B' \
+  --compressed
+
+-------------------------------------------------------------------------------------
+
