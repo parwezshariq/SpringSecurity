@@ -4,3 +4,9 @@
 /SpringBoot-DigestAuthentication/target/
 /SpringBoot-DigestAuthentication/.idea/
 /SpringBoot-DigestAuthentication/auth-web-digest.iml
+/SpringBoot-HttpsConfiguration/target/
+/SpringBoot-HttpsConfiguration/.idea/
+/SpringBoot-HttpsConfiguration/auth-basic-https.iml
+/SpringBoot-MaliciousSite/target/
+/SpringBoot-MaliciousSite/.idea/
+/SpringBoot-MaliciousSite/malicious-site.iml
