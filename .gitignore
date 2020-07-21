@@ -10,3 +10,6 @@
 /SpringBoot-MaliciousSite/target/
 /SpringBoot-MaliciousSite/.idea/
 /SpringBoot-MaliciousSite/malicious-site.iml
+/SpringBoot-SqlInjection/target/
+/SpringBoot-SqlInjection/.idea/
+/SpringBoot-SqlInjection/auth-web-data-jdbc.iml
