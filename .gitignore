@@ -13,3 +13,6 @@
 /SpringBoot-SqlInjection/target/
 /SpringBoot-SqlInjection/.idea/
 /SpringBoot-SqlInjection/auth-web-data-jdbc.iml
+/SpringBoot-UserRegistration/target/
+/SpringBoot-UserRegistration/.idea/
+/SpringBoot-UserRegistration/auth-web-data-reg.iml
