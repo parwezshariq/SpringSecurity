@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: crypto
+  cloud:
+    vault:
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: s.XxKV7kmFc6UQ3ybtE6dqHYLo
+      generic:
+        backend: crypt
