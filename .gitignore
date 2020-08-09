@@ -22,3 +22,6 @@
 /SpringBoot-MultiFactorAuthentication/target/
 /SpringBoot-MultiFactorAuthentication/.idea/
 /SpringBoot-MultiFactorAuthentication/auth-web-mfa.iml
+/SpringBoot-RememberMe/target/
+/SpringBoot-RememberMe/.idea/
+/SpringBoot-RememberMe/auth-web-remember-me.iml
